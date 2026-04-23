@@ -1,4 +1,4 @@
-# 🌬️ Monitoramento e Comparação de Parques Eólicos - CLIMAE
+# 🌬️Comparação de Parques Eólicos - CLIMAE
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
 ![R](https://img.shields.io/badge/Made_with-R_Shiny-blue)
@@ -12,11 +12,11 @@ O projeto utiliza dados abertos da ANEEL e implementa uma metodologia algorítmi
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 O objetivo principal é fornecer uma ferramenta visual para pesquisadoresvisualizarem a expansão eólica no polígono das secas e dos ventos. Além da visualização geral, a ferramenta propõe um **Experimento de Pareamento** para isolar variáveis um estudo de caso.
 
-## 🔬 Metodologia: O Experimento de Pares
+## Metodologia: O Experimento de Pares
 
 Uma das funcionalidades centrais deste app é a identificação automática de pares de usinas eólicas.
 
@@ -31,7 +31,7 @@ Uma das funcionalidades centrais deste app é a identificação automática de p
 4.  **Visualização:** Os pares selecionados são conectados no mapa, permitindo a análise geográfica da expansão da empresa (se é uma ampliação no mesmo terreno ou migração para novos municípios).
 ---
 
-## 📂 Fonte de Dados
+## Fonte de Dados
 
 Os dados são públicos e obtidos diretamente do Portal de Dados Abertos da ANEEL:
 * **Fonte:** [SIGA - Sistema de Informações de Geração da ANEEL](https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel)
@@ -39,7 +39,7 @@ Os dados são públicos e obtidos diretamente do Portal de Dados Abertos da ANEE
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 **Mayres Pequeno** | CLIMAE*
 
