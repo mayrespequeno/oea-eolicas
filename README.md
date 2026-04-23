@@ -1,4 +1,4 @@
-# 🌬️Comparação de Parques Eólicos - CLIMAE
+# Comparação de Parques Eólicos - CLIMAE
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
 ![R](https://img.shields.io/badge/Made_with-R_Shiny-blue)
