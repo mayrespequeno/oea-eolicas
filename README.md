@@ -6,7 +6,7 @@
 
 Este repositório contém uma aplicação web interativa desenvolvida em **R Shiny** para monitoramento, análise e comparação de empreendimentos eólicos no Nordeste brasileiro. 
 
-O projeto utiliza dados abertos da ANEEL e implementa uma metodologia algorítmica para identificar "pares comparáveis" de usinas eólicas (Legado vs. Novo) para estudos de impacto socioambiental e corporativo.
+Utilizo dados abertos da ANEEL e implementa uma metodologiapara identificar "pares comparáveis" de usinas eólicas (Legado vs. Novo) para estudos de impacto socioambiental.
 
 🔗 **Acesse a aplicação online:** [Eólicas Parques - ShinyApps](https://mayres-pequeno.shinyapps.io/Eolicas_Parques/)
 
@@ -14,17 +14,17 @@ O projeto utiliza dados abertos da ANEEL e implementa uma metodologia algorítmi
 
 ## Objetivo do Projeto
 
-O objetivo principal é fornecer uma ferramenta visual para pesquisadoresvisualizarem a expansão eólica no polígono das secas e dos ventos. Além da visualização geral, a ferramenta propõe um **Experimento de Pareamento** para isolar variáveis um estudo de caso.
+O objetivo é fornecer uma ferramenta visual para visualizar a expansão eólica no polígono das secas e dos ventos. Além da visualização geral, a ferramenta sizaliza um **Experimento de Pareamento**. 
 
 ## Metodologia: O Experimento de Pares
 
-Uma das funcionalidades centrais deste app é a identificação automática de pares de usinas eólicas.
+Uma das funcionalidades é a identificação de pares de usinas eólicas.
 
 1.  **Mineração de Texto:** Limpeza dos nomes dos proprietários na base da ANEEL para identificar grupos econômicos (ex: remove "SPE", "S.A.", "LTDA" para encontrar a "Empresa Mãe").
 2.  **Categorização:** Separação dos parques em dois grupos:
     * 🟢 **Legado:** Parques já em operação consolidada.
     * 🟠 **Novo:** Parques em obras ou em fase de outorga recente.
-3.  **Algoritmo de Matching:** O sistema cruza a base de dados consigo mesma para encontrar pares que atendam a **todos** os critérios:
+3.  **Matching:** Cruzamento da base de dados consigo mesma para encontrar pares que atendam a **todos** os critérios:
     * Pertencem ao mesmo Grupo Econômico.
     * Estão localizados na região Nordeste.
     * Possuem **potência instalada (MW)** similar (diferença máxima de 15%).
